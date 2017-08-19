@@ -10,5 +10,4 @@ body = soup.tbody
 rows = body.findAll('tr')
 
 for row in rows:
-    data = row.text
-    print(data)
+    print(row.text)
