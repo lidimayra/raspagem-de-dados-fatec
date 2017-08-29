@@ -2,7 +2,7 @@ import sys
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-url = 'http://www.fatecjd.edu.br/site/a-fatec-jd/corpo-docente'
+url = 'http://www.fatecjd.edu.br/portal/sobre-nos/corpo-docente/'
 html = urlopen(url)
 
 soup = BeautifulSoup(html.read(), 'html.parser')
