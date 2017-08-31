@@ -20,7 +20,7 @@ Abordaremos passo-a-passo boa parte dos scripts contidos neste repositório, com
 
 - Instalação das bibliotecas. A partir do terminal de comando execute:
 ```
-pip install beautifulsoup4 numpy scipy matplotlib
+pip install beautifulsoup4 requests numpy scipy matplotlib
 ```
 
 :heavy_exclamation_mark: Estas recomendações são necessárias para quem optar por levar o próprio notebook. Pediremos ao Nathan pra deixar os computadores do laboratório já preparados no dia! :confetti_ball:
