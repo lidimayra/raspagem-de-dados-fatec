@@ -2,7 +2,6 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from scipy import stats
 import matplotlib
-matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -32,4 +31,4 @@ plt.bar(x_pos, frequencias, align='center')
 plt.ylim(0, max(frequencias)+0.5)
 plt.xticks(np.arange(len(xi)), xi, rotation='vertical')
 fig.autofmt_xdate()
-fig.savefig('frequencies.png')
+plt.show()
