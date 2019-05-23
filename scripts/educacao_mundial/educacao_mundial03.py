@@ -29,5 +29,7 @@ for nome_do_pais in lista_ordenada:
     indice = lista_ordenada.index(nome_do_pais) + 1
     print(indice, nome_do_pais)
 
+print("========================")
 # Exibe a posição de um país específico na lista ordenada
+print("Posição ocupada pelo Brasil:")
 print(lista_ordenada.index('Brazil')+1)
