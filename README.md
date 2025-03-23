@@ -1,6 +1,9 @@
+:uk: For an English version, see [README-EN](https://github.com/lidimayra/raspagem-de-dados-fatec/blob/main/README-EN.md)
+:uk:
+
 ## Raspagem de dados Web com Python @ FATEC Jundiaí
 
-Minicurso reallizado durante a Semana de Tecnologia 2017 na Fatec Jundiaí
+Minicurso realizado durante a Semana de Tecnologia 2017 na Fatec Jundiaí
 
 Nós participamos do curso [Hackeando Dados Públicos usando Python](https://www.facebook.com/events/240063436506115) com o [Fernando Masanori](https://github.com/fmasanori), onde aprendemos técnicas muuuito legais e decidimos levar o nosso aprendizado para a [Semana de Tecnologia](http://www.fatecjd.edu.br/semtec/) da Fatec. Os exemplos utilizados continuarão disponíveis aqui.
 
@@ -8,7 +11,7 @@ Nós participamos do curso [Hackeando Dados Públicos usando Python](https://www
 A **raspagem de dados** (_data scraping_) é uma técnica computacional de coleta automatizada de dados. Durante o curso focaremos no _web scraping_, cuja finalidade consiste em extrair dados que podem ser visualizados em um navegador web.
 
 ## Pré-requisitos
-- Instalação do [Python 3](https://www.python.org/download/releases/3.0/)
+- Instalação do [Python](https://www.python.org/downloads/release/python-3132/)
 
 - Instalação das bibliotecas. A partir do terminal de comando execute:
 ```
@@ -26,12 +29,6 @@ Para garantir que a instalação foi realizada com sucesso, abra o console Pytho
 >>> BeautifulSoup
 <class 'bs4.BeautifulSoup'>
 ```
-
-## Exemplos de projetos que fazem uso de raspagem de dados:
-- [Love Mondays](https://www.lovemondays.com.br/)
-- [Operação Serenata de Amor](https://serenatadeamor.org/)
-- [SACSP](https://sacsp.mamulti.com/)
-- [TrainWay](http://trainway.azurewebsites.net/)
 
 ## Para saber mais:
 - [Github do Marco Tulio Pires](https://github.com/mtrpires)
